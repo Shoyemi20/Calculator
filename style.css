@@ -85,6 +85,40 @@ button:nth-child(20) {
   font-size: 20px;
   background-color: rgb(255, 94, 0);
 }
+@media (max-width: 500px) {
+ container {
+   position: relative;
+   height: 400px;
+   width: 500px;
+    margin: 10px auto;
+  }
+  calculator {
+    width: 100px;
+  height: 360px;
+    top: 10px;
+    margin: 0 auto;
+  }
+  result {
+  height: 50px;
+}
 
+history {
+  text-align: right;
+  height: 5px;
+  margin: 0 5px;
+  padding-top: 5px;
+  font-size: 10px;
+  color: #919191;
+}
+output {
+  text-align: right;
+  height: 400px;
+  margin: 96px 5px;
+  font-size: 10px;
+}
+keyboard {
+  height: 100px;
+  )
+   
 
 
